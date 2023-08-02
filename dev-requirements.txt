@@ -1,4 +1,4 @@
-databricks-connect==13.1.*
+databricks-connect==13.2.*
 dbx
 databricks-cli
 databricks-sql-cli
