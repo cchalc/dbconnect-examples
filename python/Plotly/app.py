@@ -175,7 +175,7 @@ def update_trip_count(greaterThan):
     ],
 )
 
-config = WorkspaceClient(profile="PROFILE", cluster_id="CLUSTER_ID").config
+config = WorkspaceClient(profile="DEFAULT", cluster_id="0801-073038-t64kumcx").config
 spark = SparkSession.builder.sdkConfig(config).getOrCreate()
 
 
